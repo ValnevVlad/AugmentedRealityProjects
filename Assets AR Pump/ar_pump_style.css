@@ -1,0 +1,11 @@
+body {
+    background-image: linear-gradient(180deg, #080723 0%, #080724 32.36%, #426A98 50.52%, #4770A0 65.1%, #0A0C29 84.37%);
+}
+
+.nav-my-color{
+    background-color: #080723;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
+    }
