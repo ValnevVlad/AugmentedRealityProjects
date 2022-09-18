@@ -1,0 +1,253 @@
+.bg-list1{
+    background-image: url("AR_Modeling_Imgs/bg.png");
+}
+.bg-list5{
+    background-image: url("AR_Modeling_Imgs/G_9.png");
+}
+.title_prop{
+    padding-top: 300px;
+}
+.title_img_prop{
+    height: 48px;
+    width:  48px;
+}
+.contacts_prop{
+    /*padding-top: 196px;*/
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.mining_logo_size{
+    width: 351.56px;
+    height: 85px;
+}
+.mining_logo_placement{
+    text-align: right;
+}
+
+.title_slide_text{
+    width: 763px;
+    height: 95px;
+    left: 66px;
+    top: 34px;
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+
+    color: #13235E; 
+}
+.oil_consuption{
+    width: 1126px;
+    height: 409px;
+}
+.oil_img1{
+    width: 774px;
+    height: 182px;
+}
+.oil_img2{
+    width: 777px;
+    height: 196px;
+}
+.map{
+    position: absolute;
+    width: 1066px;
+    height: 559px;
+    left: 10px;
+    top: 1450px;
+    z-index: -99;
+}
+.text_slide2_prop{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    color: #000000;
+}
+.legend_items{
+    position: absolute;
+    top: 1700px;
+    left: 1100px;
+}
+.space-list{
+    min-height: 400px;
+}
+
+.list3_table1{
+    width: 750px;
+    height: 450px;
+    margin-left: 5%;
+}
+.list3_table2{
+    width: 984px;
+    height: 300px;
+    text-align: center;
+}
+.list3_table3{
+    width: 800px;
+    height: 413px;
+    margin-left: 5%;
+}
+
+.container-text-list3{
+    margin-left: 5%;
+    margin-top: 7%;
+    width: 35%;
+    text-align: justify;
+}
+.text-list3{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 34px;
+    color:#000000;
+}
+
+.highlight-text-list3{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 44px;
+    color: #F2901C;
+}
+
+.upn-img{
+    margin-left: 5%;
+}
+
+.task-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #09006C;
+
+}
+.tasks-list4{
+    height: 276px;
+    width: 716px;
+    
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    align-items: center;
+    text-align: justify;
+    color:#000000;
+
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.model-text{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #13235E;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.func-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.funcs-of-system-text{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    align-items: center;
+    text-align: justify;
+    color:white;
+
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.result-imgs{
+    width: 520px;
+    height: 314px;
+}
+
+.vertical-line{
+    width: 949px;
+    height: 1px;
+    
+    border: 3px solid #F2901C;
+    transform: rotate(90deg);
+}
+
+.horizontal-line{
+    width: 949px;
+    height: 1px;
+    
+    border: 3px solid #F2901C;
+}
+.list6-prop{
+    margin-left: 10%;
+    padding-bottom: 30%;
+}
+
+.text-oon{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+
+    color: #09006C;
+    margin-top: 2%;
+}
+
+.oon-img{
+    width: 150%;
+    height: auto;
+
+}
+
+.matrix-risks-img{
+    width: 60%;
+    height: auto;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
