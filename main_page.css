@@ -1,15 +1,25 @@
+.my_projects_title {
+  margin-top: 70px;
+  margin-left: 45%;
+}
 
-
+.my_cases_title {
+  margin-left: 40%;
+}
 .cta-100 {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* padding-left: 8%; */
-    padding-top: 7%;
+    padding-top: 3%;
   }
-  .col-md-4{
+  .col-md-4 {
       padding-bottom:20px;
       margin-left: 33%;
   }
   
+  .case_card {
+    padding-bottom:20px;
+    margin-left: auto;
+  }
   .white {
     color: #fff !important;
   }
@@ -116,7 +126,7 @@
   }
   
   .item-box-blog-text {
-    max-height: 100px;
+    max-height: 200px;
     overflow: hidden;
   }
   
