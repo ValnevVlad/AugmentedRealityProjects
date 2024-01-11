@@ -382,6 +382,23 @@
   text-align: center;
   z-index: 108;
 }
+.repairing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 188px;
+  height: 57px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+  "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+  "Source Han Sans CN", sans-serif;
+  color: #ff7070;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24.205px;
+  text-align: center;
+}
 .rectangle-b {
   position: absolute;
   width: 190px;
