@@ -1522,3 +1522,69 @@
   filter: blur(7.55px);
   z-index: 7;
 }
+
+@keyframes on-hover {
+  0% {
+    height: auto;
+    opacity: 0.7;
+  }
+ 100% {
+    width: 1600px;
+    height: auto;
+  }
+}
+
+button .keyword_btn{
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 1rem 2rem;
+	position: relative;
+	transition: transform 0.1s linear, box-shadow 0.1s linear;
+	z-index: 10;
+}
+
+button .keyword_btn :active {
+	transform: translate(4px, 4px);
+}
+
+button .keyword_btn:focus {
+	outline: none;
+}
+
+.particle {
+	--x: 10;
+	--y: 10;
+	background-color: rebeccapurple;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 5px;
+	width: 5px;
+	z-index: -1;
+	border-radius: 50%;
+}
+
+.particle.move {
+	animation: move 1000ms linear forwards;
+}
+
+@keyframes move {
+	to {
+		transform: translate(var(--x), var(--y));
+	}
+	
+	95% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+}
+.move{
+	width: 30px;
+	height: 30px;
+}

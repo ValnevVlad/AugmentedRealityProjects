@@ -104,41 +104,41 @@
         <div class="ellipses"></div>
         <div class="keywords">
           <div class="flex-row-ee">
-            <div class="group-c">
+            <button class="group-c keyword_btn">
               <span class="span-ar-vr">AR/VR</span>
               <div class="rectangle-d"></div>
-            </div>
-            <div class="group-e">
+            </button>
+            <button class="group-e keyword_btn">
               <span class="span-toir">ТОиР</span>
               <div class="rectangle-f"></div>
-            </div>
+            </button>
           </div>
           <div class="flex-row-fa">
-            <div class="group-10">
+            <div class="group-10 keyword_btn">
               <span class="asu-tp">АСУТП</span>
               <div class="rectangle-11"></div>
             </div>
-            <div class="group-12">
+            <div class="group-12 keyword_btn">
               <span class="c-sharp">C#</span>
               <div class="rectangle-13"></div>
             </div>
           </div>
           <div class="flex-row-af">
-            <div class="group-14">
+            <div class="group-14 keyword_btn">
               <span class="data-science">Data Science</span>
               <div class="rectangle-15"></div>
             </div>
-            <div class="group-16">
+            <div class="group-16 keyword_btn">
               <span class="computer-vision">Компьютерное<br />зрение</span>
               <div class="rectangle-17"></div>
             </div>
           </div>
           <div class="flex-row">
-            <div class="group-18">
+            <div class="group-18 keyword_btn">
               <span class="python">Python</span>
               <div class="rectangle-19"></div>
             </div>
-            <div class="group-1a">
+            <div class="group-1a keyword_btn">
               <span class="unity3d">Unity3D</span>
               <div class="rectangle-1b"></div>
             </div>
@@ -230,5 +230,67 @@
       </div>
       </div>
     </div>
-  </body>
+
+
+    <script>
+      let btns = document.querySelectorAll('.keyword_btn');
+      //const btn = document.getElementById('keyword_btn');
+      btns.forEach((btn)=>{
+
+        btn.addEventListener('click', () => {
+        const particles = [];
+        const color = randomColor();
+        
+        const particle = document.createElement('span');
+        particle.classList.add('particle', 'move');
+        
+        const { x, y } = randomLocation();
+        particle.style.setProperty('--x', x);
+        particle.style.setProperty('--y', y);
+        particle.style.background = color;
+        //btn.style.background = color;
+        
+        btn.appendChild(particle);
+        
+        particles.push(particle);
+        
+        setTimeout(() => {
+        
+          for(let i=0; i<100; i++) {
+            const innerP = document.createElement('span');
+            innerP.classList.add('particle', 'move');
+            innerP.style.transform = `translate(${x}, ${y})`;
+
+            const xs = Math.random() * 200 - 100 + 'px';
+            const ys = Math.random() * 200 - 100 + 'px';
+            innerP.style.setProperty('--x', `calc(${x} + ${xs})`);
+            innerP.style.setProperty('--y', `calc(${y} + ${ys})`);
+            innerP.style.animationDuration = Math.random() * 300 + 200 + 'ms';
+            innerP.style.background = color;
+            
+            btn.appendChild(innerP);
+            particles.push(innerP)
+          }
+          
+          setTimeout(() => {
+            particles.forEach(particle => {
+              particle.remove();
+            })
+          }, 1000)
+        }, 1000);
+      });
+    })
+
+      function randomLocation() {
+        return {
+          x: Math.random() * window.innerWidth - window.innerWidth / 2 + 'px',
+          y: Math.random() * window.innerHeight - window.innerHeight / 2 + 'px',
+        }
+      }
+
+      function randomColor() {
+        return `hsl(${Math.floor(Math.random() * 361)}, 100%, 50%)`;
+      }
+    </script>
+</body>
 </html>
