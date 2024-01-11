@@ -1020,6 +1020,20 @@
   left: 0;
   z-index: 73;
 }
+.models_3d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 761px;
+  height: 666px;
+  top: 0;
+  left: 967px;
+  background-size: cover;
+  z-index: 75;
+}
 .image-23 {
   display: flex;
   flex-direction: column;
