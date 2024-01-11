@@ -1133,11 +1133,27 @@
   left: 0;
   z-index: 9;
 }
+.participation-in-contests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1054px;
+  height: 124px;
+  margin: 22px 0 0 319px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.409px;
+  text-align: center;
+  z-index: 11;
+}
 .my-cases {
   position: relative;
   width: 1605px;
   height: 1084px;
-  margin: 163px 0 0 62px;
+  margin: 16px 0 0 62px;
   z-index: 11;
   overflow: visible auto;
 }
@@ -1151,7 +1167,7 @@
   margin: 0 0 0 0;
   z-index: 18;
 }
-.rectangle-28 {
+.prognoz2022 {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1162,7 +1178,10 @@
   border: 2px solid #ff7070;
   z-index: 12;
 }
-.rectangle-29 {
+.prognoz2022:hover {
+  transform: scale(1.05);
+}
+.prognoz2021 {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1173,7 +1192,10 @@
   border: 2px solid #ff7070;
   z-index: 15;
 }
-.rectangle-2a {
+.prognoz2021:hover {
+  transform: scale(1.05);
+}
+.mediaTEK {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1183,6 +1205,9 @@
   background-size: cover;
   border: 2px solid #ff7070;
   z-index: 18;
+}
+.mediaTEK:hover {
+  transform: scale(1.05);
 }
 .flex-row-cb {
   display: flex;
@@ -1194,18 +1219,21 @@
   margin: 17px 0 0 0;
   z-index: 19;
 }
-.rectangle-2b {
+.Leaders_of_digital_Minenergo {
   flex-shrink: 0;
   position: relative;
   width: 525px;
   height: 350px;
-  background: url(./assets/images/a2dae12b-c181-4a5e-bf88-f23db179b1d5.png)
+  background: url(./assets/images/minenergo.png)
     no-repeat center;
   background-size: cover;
   border: 2px solid #ff7070;
   z-index: 13;
 }
-.rectangle-2c {
+.Leaders_of_digital_Minenergo:hover {
+  transform: scale(1.05);
+}
+.DiLab {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1216,16 +1244,22 @@
   border: 2px solid #ff7070;
   z-index: 16;
 }
-.rectangle-2d {
+.DiLab:hover {
+  transform: scale(1.05);
+}
+.Leaders_of_digital_Rosseti {
   flex-shrink: 0;
   position: relative;
   width: 525px;
   height: 350px;
-  background: url(./assets/images/ea1b41c0-2942-40e1-960e-1864295ad2b7.png)
+  background: url(./assets/images/rosseti.png)
     no-repeat center;
   background-size: cover;
   border: 2px solid #ff7070;
   z-index: 19;
+}
+.Leaders_of_digital_Rosseti:hover {
+  transform: scale(1.05);
 }
 .flex-row-d {
   display: flex;
@@ -1237,7 +1271,7 @@
   margin: 17px 0 0 0;
   z-index: 20;
 }
-.rectangle-2e {
+.digital_atom {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1248,7 +1282,10 @@
   border: 2px solid #ff7070;
   z-index: 14;
 }
-.rectangle-2f {
+.digital_atom:hover {
+  transform: scale(1.05);
+}
+.digital_twin {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1259,7 +1296,10 @@
   border: 2px solid #ff7070;
   z-index: 17;
 }
-.rectangle-30 {
+.digital_twin:hover {
+  transform: scale(1.05);
+}
+.TEK_fest {
   flex-shrink: 0;
   position: relative;
   width: 525px;
@@ -1269,6 +1309,9 @@
   background-size: cover;
   border: 2px solid #ff7070;
   z-index: 20;
+}
+.TEK_fest:hover {
+  transform: scale(1.05);
 }
 .cases-background {
   position: absolute;
@@ -1316,26 +1359,6 @@
   background: #d7c4ff;
   z-index: 22;
 }
-.rectangle-32 {
-  position: absolute;
-  width: 1040px;
-  height: 57px;
-  top: 146px;
-  left: 96px;
-  background: #ffffff;
-  z-index: 24;
-  border-radius: 35px;
-}
-.rectangle-33 {
-  position: absolute;
-  width: 163px;
-  height: 57px;
-  top: 146px;
-  left: 973px;
-  background: #ffc7c7;
-  z-index: 25;
-  border-radius: 35px;
-}
 .text-1c {
   display: flex;
   align-items: center;
@@ -1349,11 +1372,12 @@
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
-  color: #000000;
   font-size: 20px;
   font-weight: 400;
   line-height: 24.205px;
   text-align: center;
+  background: #ffc7c7;
+  border-radius: 35px;
   z-index: 27;
 }
 .text-1d {
@@ -1361,19 +1385,20 @@
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  width: 589px;
-  height: 45px;
-  top: 152px;
-  left: 125px;
+  width: 1040px;
+  height: 57px;
+  top: 144px;
+  left: 96px;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
-  color: #8a8a8a;
   font-size: 20px;
   font-weight: 400;
   line-height: 24.205px;
   text-align: left;
+  border-radius: 35px;
+  background: #ffffff;
   z-index: 26;
 }
 .contacts-34 {
@@ -1417,54 +1442,77 @@
   position: absolute;
   width: 4.75%;
   height: 8.64%;
-  top: 39.73%;
-  left: 11.05%;
-  background: url(./assets/images/e6492114-8ad6-44a7-a714-79bed284b102.png)
+  top: 39.83%;
+  left: 7.47%;
+  background: url(./assets/images/vk.png)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 4;
+  z-index: 2;
 }
 .telegram {
   position: absolute;
   width: 4.75%;
   height: 8.64%;
   top: 39.73%;
-  left: 29.34%;
-  background: url(./assets/images/21a4d77d-04ab-4ad2-a71b-9c641dbbd883.png)
+  left: 23.96%;
+  background: url(./assets/images/telegram.png)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 5;
+  z-index: 3;
 }
 .whatsapp {
   position: absolute;
   width: 4.75%;
   height: 8.68%;
   top: 39.73%;
-  left: 47.63%;
-  background: url(./assets/images/992e653e-5834-40aa-98a5-d4c94da74d3e.png)
+  left: 40.45%;
+  background: url(./assets/images/whatsup.png)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 8;
+  z-index: 6;
 }
 .github {
   position: absolute;
   width: 4.75%;
   height: 8.43%;
-  top: 39.83%;
-  left: 84.2%;
-  background: url(./assets/images/25e4d3a5-6111-4e78-b606-637ec663cb6d.png)
+  top: 39.94%;
+  left: 73.44%;
+  background: url(./assets/images/github.png)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 7;
+  z-index: 5;
 }
 .gmail {
   position: absolute;
   width: 4.75%;
   height: 6.48%;
-  top: 40.78%;
-  left: 65.91%;
-  background: url(./assets/images/9c7fa1e5-fa25-4edd-8eff-4e9a57cda7fd.png)
+  top: 40.89%;
+  left: 56.94%;
+  background: url(./assets/images/gmail.png)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 6;
+  z-index: 4;
+}
+.inst{
+  position: absolute;
+  width: 4.75%;
+  height: 8.64%;
+  top: 39.83%;
+  left: 89.93%;
+  background: url(./assets/images/inst.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  filter: blur(7.55px);
+  z-index: 7;
+}
+
+@keyframes on-hover {
+  0% {
+    height: auto;
+    opacity: 0.7;
+  }
+ 100% {
+    width: 1600px;
+    height: auto;
+  }
 }
