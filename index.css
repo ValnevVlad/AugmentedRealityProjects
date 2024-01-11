@@ -1516,20 +1516,9 @@
   height: 8.64%;
   top: 39.83%;
   left: 89.93%;
-  background: url(./assets/images/inst.png)
+  background: url(./assets/images/Inst.png)
     no-repeat center;
   background-size: 100% 100%;
   filter: blur(7.55px);
   z-index: 7;
-}
-
-@keyframes on-hover {
-  0% {
-    height: auto;
-    opacity: 0.7;
-  }
- 100% {
-    width: 1600px;
-    height: auto;
-  }
 }
